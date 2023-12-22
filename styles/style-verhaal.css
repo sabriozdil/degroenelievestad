@@ -1,0 +1,36 @@
+h2 {
+    font-family: "nexa-rust-sans-black-2" ;
+  text-align: center;
+  color: var(--white);
+  height: 100%;
+  font-size: 1em;
+}
+
+h3 {
+    font-family: "nexa-rust-sans-black-shad-2", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background-color: var(--hout);
+    padding: 0.5em;
+    border: solid var(--donkerhout);
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+section img {
+    margin: 1em;
+    width: 60vw;
+}
+
+main p {
+    color: var(--white);
+    margin: 2em;
+    margin-top: 1em;
+}

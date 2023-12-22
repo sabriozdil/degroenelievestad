@@ -1,0 +1,117 @@
+
+/* custom properties */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #d7e9fa;
+	--red: #990d12;
+	--off-black: #191919;
+	--white: white;
+  --hout: #EABB89;
+  --donkerhout:#C58E6A;
+
+}
+
+
+
+@font-face {
+  font-family: "nexa-rust-sans-black-2", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  src: url(https://use.typekit.net/dtv3chx.css);
+}
+
+@font-face {
+  font-family: "enra-semi-variable", sans-serif;
+  font-variation-settings: "wght" 500;
+  src: url(https://use.typekit.net/dtv3chx.css);
+}
+
+h1 {
+  font-family: "nexa-rust-sans-black-2" ;
+  text-align: center;
+  color: var(--white);
+  height: 100%;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "enra-semi-variable";
+}
+
+li {
+  text-decoration:none;
+  list-style: none;
+}
+
+body {
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--red);
+  
+}
+
+/* Header! */
+
+header {
+  padding: 1.5em;
+}
+
+header ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 5em;
+}
+
+
+
+/* Footer! */
+
+footer {
+  background-color: var(--red);
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  /* z-index: 1; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: var(--off-black);
+
+  font-family: "nexa-rust-sans-black-2";
+}
